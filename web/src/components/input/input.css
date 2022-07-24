@@ -1,0 +1,81 @@
+.formInput{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.inputBox{
+    border-radius: 16px;
+    position: relative;
+    height: 70px;
+    width: 355px;
+}
+
+.img{
+    top: calc(50% - 11px);
+    position: absolute;
+    padding-left: 23px;
+    display: block;
+    width: 24px;
+    height: auto;
+}
+
+.mail{
+    top: calc(50% - 8px);
+    position: absolute;
+    padding-left: 23px;
+    display: block;
+    width: 24px;
+    height: auto;
+}
+
+.test2{
+    padding-left: 63px;
+    height: 64px;
+    width: 281px;
+    /* margin: 15px 0px; */
+    border-radius: 16px;
+    border: 2px solid #EFF0F6;
+    background-color: #EFF0F6;
+    font-size: 16px;
+}
+
+.animasyon1{
+    cursor: initial ;
+    left: 64px;
+    color: #6E7191;
+    position: absolute;
+    top: calc(50% + 3px);
+    transform: translateY(-12px);
+    transition: 
+    top 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.animasyon2{
+    cursor: initial ;
+    left: 64px;
+    color: #6E7191;
+    position: absolute;
+    top: calc(50% + 3px);
+    transform: translateY(-12px);
+    transition: 
+        top 0.3s ease,
+        font-size 0.3s ease;
+}
+
+.test2:valid + .animasyon1,
+.test2:focus + .animasyon1{
+    top: 20px;
+    font-size: 13px;
+}
+
+.test2:focus + .animasyon2{
+    top: 20px;
+    font-size: 13px;
+}
+
+.test2:focus{
+    border: 2px solid #A939FE;
+    outline: none;
+}

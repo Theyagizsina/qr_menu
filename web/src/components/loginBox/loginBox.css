@@ -1,0 +1,41 @@
+.login12{
+    background-color: white;
+    height: 480px;
+    width: 480px;
+    margin: 40px;
+    padding: 0;
+    border-radius: 25px;
+    box-shadow: rgba(206, 210, 214, 0.2) 0px 8px 24px;
+}
+
+.loginBox{
+    width: 351px;
+    padding: 65px;
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.formInput{
+    margin: 30px 0px;
+}
+
+.loginButton{
+    height: 66px;
+    width: 351px;
+    border-radius: 16px;
+    border: none;
+    background-color: #A939FE;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.loginButton:hover{
+    background-color: #941eee;
+}
+
+.loginButton:disabled{
+    cursor: not-allowed;
+}

@@ -1,0 +1,27 @@
+.categoryWidget{
+    width: 105px;
+    height: 177px;
+
+    background: #A939FE;
+    border-radius: 20px;
+}
+
+.categoryImg{
+   display: block;
+   margin-top: 24px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 60px;
+   height: 60px;
+}
+
+.categoryTitle{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    
+    color: white;
+    text-align: center;
+}
